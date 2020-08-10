@@ -1,0 +1,20 @@
+function printCharacters(string1,string2){
+    const string3 = [];
+    for(let i=0;i<string1.length;i++){
+      var count=0;
+      for(let j=0;j<string2.length;j++){
+        if(string1[i]===string2[j]){
+          count+=1;
+        }
+      }
+      if(count===0)
+      {
+        string3.push(string1[i]);
+      }
+    }
+        console.log(string3.join(""));
+      } 
+      let string1="computer";
+      let string2="cat";
+    print(string1,string2);
+    
